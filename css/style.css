@@ -37,16 +37,16 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', serif; font-weight: 700; col
 .navbar-default .navbar-brand:focus { color: #111; }
 .navbar-default .navbar-nav { background: #FFF; margin-top: 0; }
 .navbar-default .navbar-nav>li>a { color: #222; padding: 10px; border-bottom: 1px solid #DFDFDF; }
-.navbar-default .navbar-nav>li>a.selected { color: #E64B36; }
+.navbar-default .navbar-nav>li>a.selected { color: #f52e50; }
 .navbar-default a.navbar-brand:hover .navbar-default .navbar-nav>li>a:hover { background-color: #DFDFDF; }
-.navbar-default .navbar-brand:hover { color: #E64B36; }
+.navbar-default .navbar-brand:hover { color: #f33a4c; }
 
 @media screen and (min-width: 768px) {
   .navbar-default { height: 100px; }
   .navbar-header { width: 100%; }
   .navbar-header .navbar-brand { height: 70px; padding: 40px 0 0 15px; font-size: 42px; }
   .navbar-default .navbar-nav>li>a { padding: 0px 20px 9px 0; }
-  .navbar-default .navbar-nav>li>a:hover { background-color: transparent; color: #E64B36; }
+  .navbar-default .navbar-nav>li>a:hover { background-color: transparent; color: #b90072; }
 }
 
 @media screen and (min-width: 992px) {
@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', serif; font-weight: 700; col
   
 /*--- HOME ---*/
 #home {
-  background: url('https://s17.postimg.org/m4bfqfgn3/fog_1005445_1920.jpg') no-repeat center center fixed;
+  background: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-605983.jpg') no-repeat center center fixed;
   background-size: cover; text-shadow: 1px 1px 0 rgba(255,255,255,0.5); text-align: center;
 }
 #home h1 { font-family: 'Advent Pro', sans-serif; font-size: 96px; color: #000; display: inline-block; margin: 0; padding: 0; line-height: 90px; margin-top: 60px; }
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', serif; font-weight: 700; col
 
 /*--- CONTACT ---*/
 #contact {
-  background: url('https://s18.postimg.org/z7eckrogp/seagulls_984529_1920.jpg') no-repeat top center fixed;
+  background: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-605983.jpg') no-repeat top center fixed;
   background-size: cover;
 }
 
