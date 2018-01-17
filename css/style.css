@@ -1,5 +1,5 @@
 /* ==========================================================================
-=General Styles
+=Style general
 ========================================================================== */
 
 body {
@@ -25,7 +25,7 @@ a {
 }
 
 a:hover, a:focus {
-	color: #46cdcf;
+	color: #7289DA;
 }
 
 img {
@@ -34,12 +34,12 @@ img {
 }
 
 .current {
-	background-color: #46cdcf;
+	background-color: #7289DA;
 }
 
 
 /* ==========================================================================
-=Typography
+=Typographie
 ========================================================================== */
 
 h1 {
@@ -66,7 +66,7 @@ h3 {
 }
 
 p {
-	color: #aaa;
+	color: #f5f5f5;
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-weight: normal;
@@ -78,7 +78,7 @@ p {
 ========================================================================== */
 
 #sec1 {
-	background: url(https://himigatliwanag.files.wordpress.com/2016/01/bg.jpg) top center no-repeat scroll #111;
+	background: url(https://i.imgur.com/O5cwsG2.jpg) top center no-repeat scroll #111;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -117,7 +117,7 @@ p {
 	}
 
 	#header-nav a:hover .bb-animate {
-		background: #46cdcf;
+		background: #7289DA;
 		width: 100%;
 	}
 
@@ -157,7 +157,7 @@ p {
 	}
 
 	#fix-menu a:hover, #fix-menu .active {
-		background-color: #46cdcf;
+		background-color: #7289DA;
 	}
 
 .menu-links {
@@ -184,13 +184,13 @@ p {
 
 
 /* ==========================================================================
-=ABOUT SECTION
+=SECTION A PROPOS
 ========================================================================== */
 
 .scoopy {
-	background: url(https://himigatliwanag.files.wordpress.com/2016/01/scoopy.jpg) bottom left;
+	background: url(https://i.imgur.com/xstxRFR.png) bottom left;
 	height: 495px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	width: 100%;
 }
 
@@ -207,18 +207,19 @@ p {
 }
 
 .description {
-	padding: 12px 50px;
-	border: 1px solid #4d4d4d;
+	padding: 5px 20px;
+	border: 2px solid #ffffff;
+	margin-bottom: 15px;
 }
 
 
 /* ==========================================================================
-=PORTFOLIO SECTION
+=SECTION NEWS
 ========================================================================== */
 
 #sec3 {
-	background: url(https://himigatliwanag.files.wordpress.com/2016/01/milky-way.jpg) top center fixed no-repeat;
-	/*background-size: cover;*/
+	background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-322470.jpg) top center fixed no-repeat;
+	background-size: cover;
 }
 
 .slick-slide img {
@@ -230,11 +231,11 @@ p {
 }
 
 .slick-dots li button:before {
-	color: #aaa;
+	color: #fff;
 }
 
 .slick-dots li.slick-active button:before {
-	color: white;
+	color: #ffffff;
 }
 
 .slick-custom-nav {
@@ -256,7 +257,7 @@ p {
 
 
 /* ==========================================================================
-=CONTACT SECTION
+=SECTION PLUS/REJOINDRE/CONTACT
 ========================================================================== */
 
 #sec4 {
@@ -264,7 +265,7 @@ p {
 }
 
 .contact-info {	
-	background: url(https://himigatliwanag.files.wordpress.com/2016/01/ocean.jpg) repeat;
+	background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-315743.jpg) repeat;
 	padding: 80px 50px;
 }
 
@@ -277,7 +278,7 @@ p {
 }
 
 /* ==========================================================================
-=FOOTER SECTION
+=FOOTER
 ========================================================================== */
 
 footer {
@@ -305,7 +306,7 @@ footer {
   		height: 45px;
   		transform: none;
   		text-align: center;
-  		background-color: #3F3F3F;
+  		background-color: #1c1c1ccf;
 }
 	#fix-menu a {
 		display: inline-block;
