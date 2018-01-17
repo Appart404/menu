@@ -1,10 +1,10 @@
 /* ==========================================================================
-=General Styles
+=Style general
 ========================================================================== */
 
 body {
 	background-color: #111;
-	color: #aaa;
+	color: #d4d4d4;
 	font-family: "Roboto", sans-serif;
 	font-size: 14px;
 	font-weight: normal;
@@ -25,7 +25,7 @@ a {
 }
 
 a:hover, a:focus {
-	color: #46cdcf;
+	color: #7457a0;
 }
 
 img {
@@ -34,12 +34,12 @@ img {
 }
 
 .current {
-	background-color: #46cdcf;
+	background-color: #7457a0;
 }
 
 
 /* ==========================================================================
-=Typography
+=Typographie
 ========================================================================== */
 
 h1 {
@@ -53,8 +53,8 @@ h1 {
 h2 {
 	color: #fff;
 	font-family: 'Pacifico', cursive;
-	font-size: 30px;
-	margin-bottom: 30px;
+	font-size: 28px;
+	margin-bottom: 10px;
 }
 
 h3 {
@@ -66,12 +66,15 @@ h3 {
 }
 
 p {
-	color: #aaa;
+	color: #e7e7e7;
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 }
 
+li {
+  margin: -0.7em;
+}
 
 /* ==========================================================================
 =SEC1 (Header)
@@ -117,18 +120,18 @@ p {
 	}
 
 	#header-nav a:hover .bb-animate {
-		background: #46cdcf;
+		background: #68457da3;
 		width: 100%;
 	}
 
 	#header-nav img {
-		margin-bottom: 10px;
-		opacity: .7;
+		margin-bottom: 8px;
+		opacity: .6;
 	}
 
 	.bb-animate {
 		display: block;
-		height: 1px;
+		height: 2px;
 		width: 0;
 		background: rgba(255,255,255,0);
 		-webkit-transition: all .2s ease-in-out;
@@ -184,7 +187,7 @@ p {
 
 
 /* ==========================================================================
-=ABOUT SECTION
+=A PROPOS SECTION
 ========================================================================== */
 
 .scoopy {
@@ -207,13 +210,13 @@ p {
 }
 
 .description {
-	padding: 12px 50px;
-	border: 1px solid #4d4d4d;
+	padding: 10px 25px;
+	border: 2px solid #ebebeb;
 }
 
 
 /* ==========================================================================
-=PORTFOLIO SECTION
+=NEWS SECTION
 ========================================================================== */
 
 #sec3 {
@@ -256,7 +259,7 @@ p {
 
 
 /* ==========================================================================
-=CONTACT SECTION
+=REJOINDRE SECTION
 ========================================================================== */
 
 #sec4 {
@@ -265,7 +268,7 @@ p {
 
 .contact-info {	
 	background: url(https://himigatliwanag.files.wordpress.com/2016/01/ocean.jpg) repeat;
-	padding: 80px 50px;
+	padding: 100px 50px;
 }
 
 .contact-info a:hover {
@@ -273,11 +276,11 @@ p {
 }
 
 .email-link {
-	margin-top: 50px;
+	margin-top: 25px;
 }
 
 /* ==========================================================================
-=FOOTER SECTION
+=TTBAS SECTION
 ========================================================================== */
 
 footer {
