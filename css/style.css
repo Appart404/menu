@@ -1,10 +1,10 @@
 /* ==========================================================================
-=Style general
+=General Styles
 ========================================================================== */
 
 body {
-	background-color: #101010;
-	color: #dedede;
+	background-color: #111;
+	color: #aaa;
 	font-family: "Roboto", sans-serif;
 	font-size: 14px;
 	font-weight: normal;
@@ -25,7 +25,7 @@ a {
 }
 
 a:hover, a:focus {
-	color: #7289DA;
+	color: #46cdcf;
 }
 
 img {
@@ -34,27 +34,27 @@ img {
 }
 
 .current {
-	background-color: #7289DA;
+	background-color: #46cdcf;
 }
 
 
 /* ==========================================================================
-=Typographie
+=Typography
 ========================================================================== */
 
 h1 {
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
 	font-size: 36px;
-	font-weight: 300;
+	font-weight: 100;
 	line-height: 49px;
 }
 
 h2 {
 	color: #fff;
 	font-family: 'Pacifico', cursive;
-	font-size: 28px;
-	margin-bottom: 10px;
+	font-size: 30px;
+	margin-bottom: 30px;
 }
 
 h3 {
@@ -66,22 +66,19 @@ h3 {
 }
 
 p {
-	color: #e7e7e7;
+	color: #aaa;
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 }
 
-li {
-  margin: -0.7em;
-}
 
 /* ==========================================================================
 =SEC1 (Header)
 ========================================================================== */
 
 #sec1 {
-	background: url(https://i.imgur.com/4g2Hh6x.gif) top center no-repeat scroll #111;
+	background: url(https://himigatliwanag.files.wordpress.com/2016/01/bg.jpg) top center no-repeat scroll #111;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -102,7 +99,7 @@ li {
 	left: 0;
 	right: 0;
 	margin-left: 0px;
-	margin-bottom: 9%;
+	margin-bottom: 11%;
 }
 
 #header-nav {
@@ -120,18 +117,18 @@ li {
 	}
 
 	#header-nav a:hover .bb-animate {
-		background: #7289DA;
+		background: #46cdcf;
 		width: 100%;
 	}
 
 	#header-nav img {
-		margin-bottom: 8px;
-		opacity: .9;
+		margin-bottom: 10px;
+		opacity: .7;
 	}
 
 	.bb-animate {
 		display: block;
-		height: 2px;
+		height: 1px;
 		width: 0;
 		background: rgba(255,255,255,0);
 		-webkit-transition: all .2s ease-in-out;
@@ -187,11 +184,11 @@ li {
 
 
 /* ==========================================================================
-=A PROPOS SECTION
+=ABOUT SECTION
 ========================================================================== */
 
 .scoopy {
-	background: url(https://i.imgur.com/okh4IDL.png) bottom left;
+	background: url(https://himigatliwanag.files.wordpress.com/2016/01/scoopy.jpg) bottom left;
 	height: 495px;
 	margin-bottom: 10px;
 	width: 100%;
@@ -210,17 +207,17 @@ li {
 }
 
 .description {
-	padding: 10px 25px;
-	border: 2px solid #ebebeb;
+	padding: 12px 50px;
+	border: 1px solid #4d4d4d;
 }
 
 
 /* ==========================================================================
-=NEWS SECTION
+=PORTFOLIO SECTION
 ========================================================================== */
 
 #sec3 {
-	background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-322470.jpg) top center fixed no-repeat;
+	background: url(https://himigatliwanag.files.wordpress.com/2016/01/milky-way.jpg) top center fixed no-repeat;
 	/*background-size: cover;*/
 }
 
@@ -259,7 +256,7 @@ li {
 
 
 /* ==========================================================================
-=REJOINDRE SECTION
+=CONTACT SECTION
 ========================================================================== */
 
 #sec4 {
@@ -267,8 +264,8 @@ li {
 }
 
 .contact-info {	
-	background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-614366.jpg) repeat;
-	padding: 100px 50px;
+	background: url(https://himigatliwanag.files.wordpress.com/2016/01/ocean.jpg) repeat;
+	padding: 80px 50px;
 }
 
 .contact-info a:hover {
@@ -276,11 +273,11 @@ li {
 }
 
 .email-link {
-	margin-top: 25px;
+	margin-top: 50px;
 }
 
 /* ==========================================================================
-=TTBAS SECTION
+=FOOTER SECTION
 ========================================================================== */
 
 footer {
@@ -308,7 +305,7 @@ footer {
   		height: 45px;
   		transform: none;
   		text-align: center;
-  		background-color: #707070;
+  		background-color: #3F3F3F;
 }
 	#fix-menu a {
 		display: inline-block;
