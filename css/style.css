@@ -11,7 +11,7 @@ body {
   background-color: #FFF;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
-  color: #666;
+  color: #444444;
 }
 
 .container {
@@ -28,10 +28,10 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 60px;
+  font-size: 90px;
   font-weight: 300;
   letter-spacing: 0.1618em;
-  line-height: 2.2em;
+  line-height: 2em;
 }
 h1:hover {
   cursor: default;
@@ -192,11 +192,11 @@ li:last-child {
 
 a {
   width: 64px;
-  height: 64px;
+  height: 30px;
   line-height: 64px;
   text-decoration: none;
-  color: #111;
-  font-family: "zocial", sans-serif;
+  color: #444444;
+  font-family: "Socicon", sans-serif;
   font-size: 24px;
   -moz-transition: background-color 0.15s ease-in-out;
   -o-transition: background-color 0.15s ease-in-out;
@@ -204,11 +204,11 @@ a {
   transition: background-color 0.15s ease-in-out;
 }
 a:hover {
-  -webkit-animation: color-change 3s infinite;
-  -moz-animation: color-change 3s infinite;
-  -o-animation: color-change 3s infinite;
-  -ms-animation: color-change 3s infinite;
-  animation: color-change 3s infinite;
+  -webkit-animation: color-change 4s infinite;
+  -moz-animation: color-change 4s infinite;
+  -o-animation: color-change 4s infinite;
+  -ms-animation: color-change 4s infinite;
+  animation: color-change 4s infinite;
 }
 a:active {
   -webkit-animation: color-change 1s infinite;
