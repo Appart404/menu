@@ -1,22 +1,17 @@
-@import "compass/css3";
-
-@import "compass/css3";
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
-
 ::selection {
-  background-color: #ededed; 
-} ::-moz-selection {
-  background-color: #ededed; 
+  background-color: #ededed;
+}
+
+::-moz-selection {
+  background-color: #ededed;
 }
 
 body {
   background-color: #FFF;
-  
-  font: {
-    family: "Source Sans Pro", sans-serif;
-    size: 16px;
-  }
-  color: #666; // lolmdr le diabl
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  color: #666;
 }
 
 .container {
@@ -32,81 +27,153 @@ body {
 }
 
 h1 {
-  text: {
-    align: center;
-  }
-  font: {
-    size: 60px;
-    weight: 300;
-  }
-  
+  text-align: center;
+  font-size: 60px;
+  font-weight: 300;
   letter-spacing: 0.1618em;
   line-height: 2.2em;
-  
-  &:hover {
-    cursor: default;
-  }
-  
-  span {
-        -webkit-animation: color-change 4s infinite;
-        -moz-animation: color-change 4s infinite;
-        -o-animation: color-change 4s infinite;
-        -ms-animation: color-change 4s infinite;
-        animation: color-change 4s infinite;
-  }
+}
+h1:hover {
+  cursor: default;
+}
+h1 span {
+  -webkit-animation: color-change 4s infinite;
+  -moz-animation: color-change 4s infinite;
+  -o-animation: color-change 4s infinite;
+  -ms-animation: color-change 4s infinite;
+  animation: color-change 4s infinite;
 }
 
-    @-webkit-keyframes color-change {
-        0% { color: rgb(255, 35, 35); }
-        15% { color: rgb(255, 115, 34); }
-        30% { color: rgb(255, 225, 33); }
-        45% { color: rgb(73, 255, 32); }
-        60% { color: rgb(32, 255, 206); }
-        75% { color: rgb(32, 98, 255); }
-        90% { color: gb(162, 32, 255); }
-        100% { color: rgb(255, 32, 169); }
-    }
-    @-moz-keyframes color-change {
-        0% { color: rgb(255, 35, 35); }
-        15% { color: rgb(255, 115, 34); }
-        30% { color: rgb(255, 225, 33); }
-        45% { color: rgb(73, 255, 32); }
-        60% { color: rgb(32, 255, 206); }
-        75% { color: rgb(32, 98, 255); }
-        90% { color: gb(162, 32, 255); }
-        100% { color: rgb(255, 32, 169); }
-    }
-    @-ms-keyframes color-change {
-        0% { color: rgb(255, 35, 35); }
-        15% { color: rgb(255, 115, 34); }
-        30% { color: rgb(255, 225, 33); }
-        45% { color: rgb(73, 255, 32); }
-        60% { color: rgb(32, 255, 206); }
-        75% { color: rgb(32, 98, 255); }
-        90% { color: gb(162, 32, 255); }
-        100% { color: rgb(255, 32, 169); }
-    }
-    @-o-keyframes color-change {
-        0% { color: rgb(255, 35, 35); }
-        15% { color: rgb(255, 115, 34); }
-        30% { color: rgb(255, 225, 33); }
-        45% { color: rgb(73, 255, 32); }
-        60% { color: rgb(32, 255, 206); }
-        75% { color: rgb(32, 98, 255); }
-        90% { color: gb(162, 32, 255); }
-        100% { color: rgb(255, 32, 169); }
-    }
-    @keyframes color-change {
-        0% { color: rgb(255, 35, 35); }
-        15% { color: rgb(255, 115, 34); }
-        30% { color: rgb(255, 225, 33); }
-        45% { color: rgb(73, 255, 32); }
-        60% { color: rgb(32, 255, 206); }
-        75% { color: rgb(32, 98, 255); }
-        90% { color: gb(162, 32, 255); }
-        100% { color: rgb(255, 32, 169); }
-    }
-
+@-webkit-keyframes color-change {
+  0% {
+    color: #ff2323;
+  }
+  15% {
+    color: #ff7322;
+  }
+  30% {
+    color: #ffe121;
+  }
+  45% {
+    color: #49ff20;
+  }
+  60% {
+    color: #20ffce;
+  }
+  75% {
+    color: #2062ff;
+  }
+  90% {
+    color: gb(162, 32, 255);
+  }
+  100% {
+    color: #ff20a9;
+  }
+}
+@-moz-keyframes color-change {
+  0% {
+    color: #ff2323;
+  }
+  15% {
+    color: #ff7322;
+  }
+  30% {
+    color: #ffe121;
+  }
+  45% {
+    color: #49ff20;
+  }
+  60% {
+    color: #20ffce;
+  }
+  75% {
+    color: #2062ff;
+  }
+  90% {
+    color: gb(162, 32, 255);
+  }
+  100% {
+    color: #ff20a9;
+  }
+}
+@-ms-keyframes color-change {
+  0% {
+    color: #ff2323;
+  }
+  15% {
+    color: #ff7322;
+  }
+  30% {
+    color: #ffe121;
+  }
+  45% {
+    color: #49ff20;
+  }
+  60% {
+    color: #20ffce;
+  }
+  75% {
+    color: #2062ff;
+  }
+  90% {
+    color: gb(162, 32, 255);
+  }
+  100% {
+    color: #ff20a9;
+  }
+}
+@-o-keyframes color-change {
+  0% {
+    color: #ff2323;
+  }
+  15% {
+    color: #ff7322;
+  }
+  30% {
+    color: #ffe121;
+  }
+  45% {
+    color: #49ff20;
+  }
+  60% {
+    color: #20ffce;
+  }
+  75% {
+    color: #2062ff;
+  }
+  90% {
+    color: gb(162, 32, 255);
+  }
+  100% {
+    color: #ff20a9;
+  }
+}
+@keyframes color-change {
+  0% {
+    color: #ff2323;
+  }
+  15% {
+    color: #ff7322;
+  }
+  30% {
+    color: #ffe121;
+  }
+  45% {
+    color: #49ff20;
+  }
+  60% {
+    color: #20ffce;
+  }
+  75% {
+    color: #2062ff;
+  }
+  90% {
+    color: gb(162, 32, 255);
+  }
+  100% {
+    color: #ff20a9;
+  }
+}
 nav {
   text-align: center;
 }
@@ -118,10 +185,9 @@ ul, li, a {
 li {
   border-right: 1px solid #DDD;
   padding: 5px 7px 5px 5px;
-  
-  &:last-child {
-    border-right-color: transparent;
-  }
+}
+li:last-child {
+  border-right-color: transparent;
 }
 
 a {
@@ -130,27 +196,24 @@ a {
   line-height: 64px;
   text-decoration: none;
   color: #111;
-  
-  font: {
-    family: "zocial", sans-serif;
-    size: 24px;
-  }
-  
-  @include transition(background-color .15s ease-in-out);
-  
-  &:hover {
-        -webkit-animation: color-change 3s infinite;
-        -moz-animation: color-change 3s infinite;
-        -o-animation: color-change 3s infinite;
-        -ms-animation: color-change 3s infinite;
-        animation: color-change 3s infinite;;
-  }
-  
-  &:active {
-    -webkit-animation: color-change 1s infinite;
-        -moz-animation: color-change 1s infinite;
-        -o-animation: color-change 1s infinite;
-        -ms-animation: color-change 1s infinite;
-        animation: color-change 1s infinite;
-  }
+  font-family: "zocial", sans-serif;
+  font-size: 24px;
+  -moz-transition: background-color 0.15s ease-in-out;
+  -o-transition: background-color 0.15s ease-in-out;
+  -webkit-transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
+}
+a:hover {
+  -webkit-animation: color-change 3s infinite;
+  -moz-animation: color-change 3s infinite;
+  -o-animation: color-change 3s infinite;
+  -ms-animation: color-change 3s infinite;
+  animation: color-change 3s infinite;
+}
+a:active {
+  -webkit-animation: color-change 1s infinite;
+  -moz-animation: color-change 1s infinite;
+  -o-animation: color-change 1s infinite;
+  -ms-animation: color-change 1s infinite;
+  animation: color-change 1s infinite;
 }
