@@ -1,2 +1,2 @@
 # menu
-Page menu de la communauté EntreKheys
+Page menu de la communauté de l'Appart (anc. EK)
